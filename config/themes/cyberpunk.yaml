@@ -1,0 +1,49 @@
+cyberpunk:
+  lovelace-background: "center / cover no-repeat url('/local/homekit-bg.jpeg') fixed" #Background-image
+  ### Main Interface Colors ###
+  primary-color: "#bf41d9"
+  light-primary-color: "#71FFF7"
+  primary-background-color: "#2b223e"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: "#2C2C39"
+  ### Text ###
+  primary-text-color: "#F7F8FA"
+  secondary-text-color: "#bf41d9"
+  text-primary-color: "#FFFFFF"
+  disabled-text-color: "#7b5b83"
+  ### Header ###
+  app-header-background-color: "var(--primary-background-color)"
+  app-header-text-color: "var(--text-primary-color)"  
+  ### Sidebar Menu ###
+  sidebar-icon-color: "#BCC5D1"
+  sidebar-text-color: "#F7F8FA"
+  sidebar-background-color: var(--primary-background-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: "#bf41d9"
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  ### States and Badges ###
+  state-icon-color: "#ae00e3"
+  state-icon-active-color: "#FBCD41"
+  state-icon-unavailable-color: var(--disabled-text-color)
+  ### Sliders ###
+  paper-slider-knob-color: "#bf41d9"
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: "#00C5E3"
+  ### Labels ###
+  label-badge-background-color: "#2F2F3D"
+  label-badge-text-color: "#F7F8FA"
+  label-badge-red: "#444459"
+  ### Cards ###
+  card-background-color: "rgba(43, 34, 62, 0.6)"
+  paper-listbox-background-color: var(--primary-background-color)
+  
+  ### Toggles ###
+  paper-toggle-button-checked-button-color: "#bf41d9"
+  paper-toggle-button-checked-bar-color: "#00EDE0"
+  paper-toggle-button-unchecked-button-color: "#A8B3C3"
+  paper-toggle-button-unchecked-bar-color: "#CED5DD"
+  ### Table row ###
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)

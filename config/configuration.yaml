@@ -10,3 +10,19 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+
+frontend:
+  themes: !include_dir_merge_named themes
+
+sensor:
+  - platform: moon
+  - platform: systemmonitor
+    resources:
+      - type: processor_use
+      - type: processor_temperature
+      - type: memory_use_percent
+      - type: memory_use
+      - type: memory_free
+
+sun:
+
